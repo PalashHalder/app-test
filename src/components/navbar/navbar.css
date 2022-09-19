@@ -1,0 +1,57 @@
+nav{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.logo{
+    width: 10%
+}
+.nav-item{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.nav_list{
+    display: inline-block;
+    margin: 40px;
+    color: #29313D;
+}
+.nav_list:hover .nav_link{
+    color: red;
+}
+.nav_list:hover i{
+    transform: rotate(180deg);
+}
+.nav_list{
+    transition: .4s;
+}
+
+.nav_link{
+    color: #29313D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    transition: .4s;
+    font-weight: 600;
+}
+.nav_contact{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.nav_contact_link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 20px;
+    background: #FF5538;
+    border-radius: 18px;
+    color: #FFFFFF;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+.nav_contact_link:hover{
+    background: transparent;
+    border: 1px solid #FF5538;
+    color: #29313D;
+}
